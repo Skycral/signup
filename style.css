@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.image {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  position: relative;
+}
+
+img {
+  width: 40vw;
+  object-fit: cover;
+}
+
+.pine {
+  position: absolute;
+  top: 20%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  padding: 0.2em 0;
+}
