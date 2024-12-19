@@ -27,13 +27,13 @@ body {
 }
 
 .imgpine {
-  width: 40vw;
+  width: 37vw;
   object-fit: cover;
 }
 
 .pine {
   position: absolute;
-  top: 20%;
+  top: 15em;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -45,22 +45,93 @@ body {
 }
 
 .logo {
-  height: 5em;
+  height: 8em;
   filter: brightness(0) invert(1);
   margin-right: -1em;
+  margin-top: -0.2em;
 }
 
 .pine p {
-  font-size: 4em;
+  font-size: 6em;
+  margin-top: 0.2em;
 }
 
 /* Text/Content styling */
 
 .content{
-  background-color: rgba(247, 240, 230, 0.377);
+  background-color: rgba(164, 173, 223, 0.219);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 9em;
+}
+
+.info {
+  padding: 2em 4em 2em 2em;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+
+.know {
+  margin-top: 1em;
+}
+
+.field {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  background-color: white;
+  box-shadow: 0.2em 0.2em 0.2em 0.2em rgb(194, 192, 192);
+  padding: 4em 10em 3em 3em;
+  position: relative;
+}
+
+legend {
+  font-size: 1.5em;
+  font-weight: bold;
+  position: absolute;
+  top: 0.7em;
+}
+
+.field div {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7em;
+  width: 25em;
+  margin-right: 5em;
+  margin-top: 1em;
+}
+
+input {
+  padding: 0.5em;
+  border-radius: 0.2em;
+  border: 1px solid rgb(209, 207, 207);
+}
+
+.submit {
+  padding: 2em 4em 2em 3em;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: rgb(214, 142, 48);
+  padding: 0.8em 3.2em;
+  border-radius: 0.6em;
+  font-weight: bold;
+  font-size: 1.1em;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.247);
+}
+
+.submit p {
+  margin-top: 2em;
+}
+
+.submit p a {
+  text-decoration: none;
+  color: rgb(214, 142, 48);
+  font-weight: bold;
 }
